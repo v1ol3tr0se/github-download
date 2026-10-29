@@ -15,7 +15,7 @@ jobs:
   xpi:
     name: build + publish xpi
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v7
 
@@ -26,9 +26,18 @@ jobs:
 
       - run: yarn install --frozen-lockfile --non-interactive
       - run: yarn verify
-      - run: yarn build
 
       - run: test "v$(jq -r .version src/manifest.json)" = "${{ github.ref_name }}"
+
+      - name: sign with mozilla when the keys are set
+        env:
+          WEB_EXT_API_KEY: ${{ secrets.AMO_JWT_ISSUER }}
+          WEB_EXT_API_SECRET: ${{ secrets.AMO_JWT_SECRET }}
+        run: |
+          if [ -n "$WEB_EXT_API_KEY" ]; then
+            yarn web-ext sign --channel unlisted --source-dir dist --artifacts-dir signed
+            mv signed/*.xpi github-download.xpi
+          fi
 
       - run: mv github-download.xpi github-download-${{ github.ref_name }}.xpi
 
