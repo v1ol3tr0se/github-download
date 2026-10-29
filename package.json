@@ -1,6 +1,6 @@
 {
 	"name": "github-download",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"private": true,
 	"scripts": {
 		"build": "rm -rf dist github-download.xpi && tsc -p tsconfig.build.json && cp src/manifest.json src/big.css dist/ && cd dist && zip -qr ../github-download.xpi .",
