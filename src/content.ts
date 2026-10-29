@@ -46,10 +46,13 @@ async function download(b: HTMLElement): Promise<void> {
 }
 
 function sync(): void {
-	const host = document.getElementById("repo-content-turbo-frame");
+	const frame = document.getElementById("repo-content-turbo-frame");
+	const skip = document.getElementById("code-view-repo-link");
 	const b = document.getElementById("gh-big-download");
-	if (host && ROOT.test(location.pathname)) {
-		if (!b) host.prepend(button());
+	if ((frame || skip) && ROOT.test(location.pathname)) {
+		if (b) return;
+		if (frame) frame.prepend(button());
+		else skip?.after(button());
 	} else {
 		b?.remove();
 	}
