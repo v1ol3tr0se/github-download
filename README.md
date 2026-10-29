@@ -12,8 +12,9 @@ under the button it tells you what it grabbed and how big it is
 - keeps whatever matches your os and cpu
 - on linux it goes appimage first, then plain binaries and tarballs, then `.deb` / `.rpm`. windows prefers installers, mac prefers `.dmg`
 - if two files tie, the one more people downloaded wins (the crowd is usually right)
+- if the release is just one plain file, like a theme `.css` or a `.js`, it grabs that
 
-if there's no build for your system you get the source zip, and if the repo has no releases at all it's the zip of the main branch. kinda like the old green code button, just louder
+if there's no build for your system it looks in the repo for something installable (a `.user.css`, a `.user.js`, a `.css` / `.js` named like the repo). only then you get the source zip (or the main branch zip if there are no releases at all). kinda like the old green code button, just louder
 
 ### installing
 it's not on addons.mozilla.org. grab the `.xpi` from [releases](https://github.com/v1ol3tr0se/github-download/releases), or build it yourself:

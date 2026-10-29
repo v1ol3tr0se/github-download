@@ -30,12 +30,16 @@ const ARCH: [Arch, RegExp][] = [
 	["universal", /universal/],
 ];
 
+const PLAIN = /\.(css|js|mjs|lua|ttf|otf|woff2?|vsix|xpi|crx)$/;
+
 const FORMATS: Record<Os, RegExp[]> = {
-	linux: [/appimage/, /^[^.]+$|\.(tar\.\w+|tgz|zip)$/, /\.deb$/, /\.rpm$/, /\.jar$/],
-	windows: [/\.(exe|msi|msix|appx)$/, /\.(zip|7z)$/, /\.jar$/],
-	mac: [/\.(dmg|pkg)$/, /\.(zip|tar\.\w+|tgz)$/, /^[^.]+$|\.jar$/],
-	android: [/\.apk$/],
+	linux: [/appimage/, /^[^.]+$|\.(tar\.\w+|tgz|zip)$/, /\.deb$/, /\.rpm$/, /\.jar$/, PLAIN],
+	windows: [/\.(exe|msi|msix|appx)$/, /\.(zip|7z)$/, /\.jar$/, PLAIN],
+	mac: [/\.(dmg|pkg)$/, /\.(zip|tar\.\w+|tgz)$/, /^[^.]+$|\.jar$/, PLAIN],
+	android: [/\.apk$/, PLAIN],
 };
+
+const INSTALLABLE = /\.(user|theme)\.css$|\.(user|plugin)\.js$/;
 
 const JUNK =
 	/\.(sha\d*|sha\d+sum|md5|sig|asc|pem|crt|minisig|sbom|spdx|json|ya?ml|txt|md|blockmap|zsync|b3|intoto\.jsonl|pub|key|xml|nupkg|delta)$|checksums?|sha\d+sums|^releases$|filesforjar|(?<![a-z])(debug\w*|dbg|symbols?|pdb|src|sources?(only)?|translations?|completions?)(?![a-z])/;
@@ -79,4 +83,16 @@ function pick<T extends Pick<Asset, "name" | "download_count">>(assets: T[], ua:
 		}
 	}
 	return best;
+}
+
+function deliverable(names: string[], repo: string): string | null {
+	const words = repo.toLowerCase().split(/[^a-z0-9]+/);
+	return (
+		names.find((n) => INSTALLABLE.test(n.toLowerCase())) ??
+		names.find((n) => {
+			const m = n.toLowerCase().match(/^([a-z0-9]+)\.(css|js|lua)$/);
+			return m !== null && words.includes(m[1]);
+		}) ??
+		null
+	);
 }

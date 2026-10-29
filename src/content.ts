@@ -3,6 +3,12 @@ interface Release {
 	assets: Asset[];
 }
 
+interface RepoFile {
+	name: string;
+	type: string;
+	download_url: string;
+}
+
 const ROOT = /^\/([^/]+)\/([^/]+)\/?$/;
 
 function button(): HTMLButtonElement {
@@ -13,6 +19,28 @@ function button(): HTMLButtonElement {
 	return b;
 }
 
+function size(bytes: number): string {
+	return bytes < 1048576 ? `${Math.ceil(bytes / 1024)} KB` : `${(bytes / 1048576).toFixed(1)} MB`;
+}
+
+async function api<T>(url: string): Promise<T | null> {
+	const res = await fetch(`https://api.github.com/repos/${url}`);
+	if (res.status === 404) return null;
+	if (!res.ok) throw new Error(String(res.status));
+	return res.json();
+}
+
+async function save(url: string, name: string): Promise<void> {
+	const blob = await (await fetch(url)).blob();
+	const a = document.createElement("a");
+	a.href = URL.createObjectURL(blob);
+	a.download = name;
+	document.body.append(a);
+	a.click();
+	a.remove();
+	setTimeout(() => URL.revokeObjectURL(a.href), 60_000);
+}
+
 async function download(b: HTMLElement): Promise<void> {
 	const m = location.pathname.match(ROOT);
 	const note = b.querySelector("small");
@@ -20,26 +48,29 @@ async function download(b: HTMLElement): Promise<void> {
 	const nwo = `${m[1]}/${m[2]}`;
 	note.textContent = "finding the right file…";
 	try {
-		const api = `https://api.github.com/repos/${nwo}/releases`;
-		let res = await fetch(`${api}/latest`);
-		if (res.status === 404) res = await fetch(`${api}?per_page=1`);
-		if (res.status === 404) {
-			location.assign(`https://github.com/${nwo}/archive/HEAD.zip`);
-			return;
-		}
-		if (!res.ok) throw new Error(String(res.status));
-		const data: Release | Release[] = await res.json();
-		const release = Array.isArray(data) ? data[0] : data;
+		const release =
+			(await api<Release>(`${nwo}/releases/latest`)) ?? (await api<Release[]>(`${nwo}/releases?per_page=1`))?.[0];
 		const asset = release ? pick(release.assets, navigator.userAgent) : null;
 		if (asset) {
-			note.textContent = `${asset.name} · ${(asset.size / 1048576).toFixed(1)} MB`;
+			note.textContent = `${asset.name} · ${size(asset.size)}`;
 			location.assign(asset.browser_download_url);
-		} else {
-			note.textContent = `${release ? release.tag_name : "latest"} source code`;
-			location.assign(
-				`https://github.com/${nwo}/archive/${release ? `refs/tags/${encodeURI(release.tag_name)}` : "HEAD"}.zip`,
-			);
+			return;
 		}
+		const files = (await api<RepoFile[]>(`${nwo}/contents`)) ?? [];
+		const name = deliverable(
+			files.filter((f) => f.type === "file").map((f) => f.name),
+			m[2],
+		);
+		const file = files.find((f) => f.name === name);
+		if (file) {
+			note.textContent = file.name;
+			await save(file.download_url, file.name);
+			return;
+		}
+		note.textContent = `${release ? release.tag_name : "latest"} source code`;
+		location.assign(
+			`https://github.com/${nwo}/archive/${release ? `refs/tags/${encodeURI(release.tag_name)}` : "HEAD"}.zip`,
+		);
 	} catch {
 		location.assign(`https://github.com/${nwo}/releases/latest`);
 	}

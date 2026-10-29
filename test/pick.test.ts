@@ -6,9 +6,12 @@ import { runInNewContext } from "node:vm";
 
 type Named = { name: string; download_count: number };
 type PickFn = (assets: Named[], ua: string) => Named | null;
+type DeliverableFn = (names: string[], repo: string) => string | null;
 
 const source = stripTypeScriptTypes(readFileSync(new URL("../src/pick.ts", import.meta.url), "utf8"));
-const pick: PickFn = runInNewContext(`${source};pick`);
+const { pick, deliverable }: { pick: PickFn; deliverable: DeliverableFn } = runInNewContext(
+	`${source};({ pick, deliverable })`,
+);
 
 const UA = {
 	linux: "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0",
@@ -50,4 +53,29 @@ test("skips files that are not the app", () => {
 	assert.equal(one("completions-0.23.5.tar.gz", "mac"), null);
 	assert.equal(one("k9s_linux_arm64.apk", "android"), null);
 	assert.equal(one("sourcegit-2026.23.linux.amd64.AppImage", "linux"), "sourcegit-2026.23.linux.amd64.AppImage");
+});
+
+test("takes a plain file from the release when that is the whole app", () => {
+	for (const os of ["linux", "windows", "mac"] as const) {
+		assert.equal(one("float.theme.css", os), "float.theme.css");
+		assert.equal(one("float.js", os), "float.js");
+	}
+	assert.equal(
+		pick(
+			[
+				{ name: "tool-linux-x86_64.AppImage", download_count: 1 },
+				{ name: "install.js", download_count: 99 },
+			],
+			UA.linux,
+		)?.name,
+		"tool-linux-x86_64.AppImage",
+	);
+});
+
+test("finds an installable file in the repo root", () => {
+	const root = [".editorconfig", "README.md", "biome.json", "build.ts", "float.js", "package.json"];
+	assert.equal(deliverable(root, "float-spicetify"), "float.js");
+	assert.equal(deliverable(["README.md", "catppuccin.user.css", "index.js"], "userstyles"), "catppuccin.user.css");
+	assert.equal(deliverable(["README.md", "biome.json", "package.json"], "clawd"), null);
+	assert.equal(deliverable(["index.js", "README.md"], "some-lib"), null);
 });
