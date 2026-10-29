@@ -26,7 +26,7 @@ yarn build
 
 then `about:addons` → ⚙ → install add-on from file → the `.xpi`
 
-if firefox says it can't be verified, it's because it isn't signed by mozilla. on normal firefox you can still load it from `about:debugging` → this firefox → load temporary add-on, it just goes away when you close the browser. to keep it installed you need a browser that lets you turn off `xpinstall.signatures.required` (waterfox, librewolf, firefox nightly / developer edition)
+the release one is signed by mozilla, so it installs on normal firefox too. if you build it yourself it isn't, and then you need `about:debugging` → load temporary add-on, or a browser that lets you turn off `xpinstall.signatures.required`
 
 ### heads up
 - it only shows on the repo's main page, not in issues or files
