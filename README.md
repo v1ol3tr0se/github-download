@@ -16,14 +16,14 @@ under the button it tells you what it grabbed and how big it is
 if there's no build for your system you get the source zip, and if the repo has no releases at all it's the zip of the main branch. kinda like the old green code button, just louder
 
 ### installing
-it's not on addons.mozilla.org, so build it:
+it's not on addons.mozilla.org. grab the `.xpi` from [releases](https://github.com/v1ol3tr0se/github-download/releases), or build it yourself:
 
 ```shell
 yarn install
 yarn build
 ```
 
-then `about:addons` → ⚙ → install add-on from file → `github-download.xpi`
+then `about:addons` → ⚙ → install add-on from file → the `.xpi`
 
 it's unsigned, so the browser has to let you turn off `xpinstall.signatures.required`. waterfox, librewolf and firefox nightly / developer edition do
 
