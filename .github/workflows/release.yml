@@ -1,0 +1,37 @@
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  xpi:
+    name: build + publish xpi
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "26"
+          cache: yarn
+
+      - run: yarn install --frozen-lockfile --non-interactive
+      - run: yarn verify
+      - run: yarn build
+
+      - run: test "v$(jq -r .version src/manifest.json)" = "${{ github.ref_name }}"
+
+      - run: mv github-download.xpi github-download-${{ github.ref_name }}.xpi
+
+      - run: gh release create "${{ github.ref_name }}" github-download-${{ github.ref_name }}.xpi --title "${{ github.ref_name }}" --generate-notes
+        env:
+          GH_TOKEN: ${{ github.token }}
