@@ -1,0 +1,12 @@
+{
+	"assets": [
+		{ "download_count": 6425, "name": "libresprite-v1.3-linux-x86_64.AppImage", "size": 98089464 },
+		{ "download_count": 2778, "name": "libresprite-v1.3-macos-arm64.dmg", "size": 23566251 },
+		{ "download_count": 1156, "name": "libresprite-v1.3-macos-x86_64.dmg", "size": 26465526 },
+		{ "download_count": 23971, "name": "libresprite-v1.3-windows-x86_64-installer.exe", "size": 31260020 },
+		{ "download_count": 13567, "name": "libresprite-v1.3-windows-x86_64.zip", "size": 43595037 },
+		{ "download_count": 407, "name": "SOURCE.CODE.+.submodules.tar.gz", "size": 14869390 },
+		{ "download_count": 359, "name": "SOURCE.CODE.+.submodules.zip", "size": 15652559 }
+	],
+	"tag": "v1.3"
+}

@@ -1,0 +1,16 @@
+{
+	"assets": [
+		{ "download_count": 4566, "name": "audacity-linux-4.0.1-aarch64.AppImage", "size": 70666760 },
+		{ "download_count": 47011, "name": "audacity-linux-4.0.1-x86_64.AppImage", "size": 73755128 },
+		{ "download_count": 254146, "name": "audacity-macOS-4.0.1-arm64.dmg", "size": 50034126 },
+		{ "download_count": 380271, "name": "audacity-macOS-4.0.1-universal.dmg", "size": 92003045 },
+		{ "download_count": 67813, "name": "audacity-macOS-4.0.1-x86_64.dmg", "size": 54321871 },
+		{ "download_count": 4325, "name": "audacity-sources-4.0.1.tar.xz", "size": 190348052 },
+		{ "download_count": 7630, "name": "audacity-win-4.0.1-arm64.7z", "size": 32798863 },
+		{ "download_count": 22814, "name": "audacity-win-4.0.1-arm64.msi", "size": 38264832 },
+		{ "download_count": 36379, "name": "audacity-win-4.0.1-x86_64.7z", "size": 44322940 },
+		{ "download_count": 674261, "name": "audacity-win-4.0.1-x86_64.msi", "size": 49795072 },
+		{ "download_count": 7684, "name": "CHECKSUMS.txt", "size": 1632 }
+	],
+	"tag": "Audacity-4.0.1"
+}

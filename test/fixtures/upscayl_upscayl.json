@@ -1,0 +1,19 @@
+{
+	"assets": [
+		{ "download_count": 366191, "name": "latest-linux.yml", "size": 691 },
+		{ "download_count": 5586924, "name": "latest-mac.yml", "size": 495 },
+		{ "download_count": 9779693, "name": "latest.yml", "size": 342 },
+		{ "download_count": 238133, "name": "upscayl-2.15.0-linux.AppImage", "size": 312749864 },
+		{ "download_count": 34405, "name": "upscayl-2.15.0-linux.deb", "size": 249131664 },
+		{ "download_count": 15743, "name": "upscayl-2.15.0-linux.rpm", "size": 249795225 },
+		{ "download_count": 105640, "name": "upscayl-2.15.0-linux.zip", "size": 304261506 },
+		{ "download_count": 305341, "name": "upscayl-2.15.0-mac.dmg", "size": 385264901 },
+		{ "download_count": 4577, "name": "upscayl-2.15.0-mac.dmg.blockmap", "size": 403581 },
+		{ "download_count": 216187, "name": "upscayl-2.15.0-mac.zip", "size": 376811048 },
+		{ "download_count": 3217, "name": "upscayl-2.15.0-mac.zip.blockmap", "size": 393503 },
+		{ "download_count": 11347906, "name": "upscayl-2.15.0-win.exe", "size": 260912662 },
+		{ "download_count": 8402030, "name": "upscayl-2.15.0-win.exe.blockmap", "size": 272694 },
+		{ "download_count": 172490, "name": "upscayl-2.15.0-win.zip", "size": 304247780 }
+	],
+	"tag": "v2.15.0"
+}

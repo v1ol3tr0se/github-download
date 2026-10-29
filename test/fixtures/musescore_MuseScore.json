@@ -1,0 +1,13 @@
+{
+	"assets": [
+		{ "download_count": 128, "name": "checksums.sha256.txt", "size": 896 },
+		{ "download_count": 142, "name": "MuseScore-Studio-4.7.6.261022093-aarch64.AppImage", "size": 188541448 },
+		{ "download_count": 41, "name": "MuseScore-Studio-4.7.6.261022093-aarch64.AppImage.zsync", "size": 322487 },
+		{ "download_count": 1290, "name": "MuseScore-Studio-4.7.6.261022093-x86_64.AppImage", "size": 192616952 },
+		{ "download_count": 1169, "name": "MuseScore-Studio-4.7.6.261022093-x86_64.AppImage.zsync", "size": 329450 },
+		{ "download_count": 11187, "name": "MuseScore-Studio-4.7.6.261022093-x86_64.msi", "size": 135020544 },
+		{ "download_count": 184, "name": "MuseScore-Studio-4.7.6.261022093-x86_64.paf.exe", "size": 120330168 },
+		{ "download_count": 14018, "name": "MuseScore-Studio-4.7.6.261022093.dmg", "size": 207171137 }
+	],
+	"tag": "v4.7.6"
+}

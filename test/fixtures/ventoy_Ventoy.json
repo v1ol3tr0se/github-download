@@ -1,0 +1,9 @@
+{
+	"assets": [
+		{ "download_count": 10247, "name": "sha256.txt", "size": 276 },
+		{ "download_count": 61772, "name": "ventoy-1.1.18-linux.tar.gz", "size": 20320548 },
+		{ "download_count": 9075, "name": "ventoy-1.1.18-livecd.iso", "size": 195989504 },
+		{ "download_count": 90846, "name": "ventoy-1.1.18-windows.zip", "size": 16680699 }
+	],
+	"tag": "v1.1.18"
+}

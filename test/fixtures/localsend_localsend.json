@@ -1,0 +1,25 @@
+{
+	"assets": [
+		{ "download_count": 20988, "name": "LocalSend-1.18.2-android-arm32v7.apk", "size": 39333444 },
+		{ "download_count": 192229, "name": "LocalSend-1.18.2-android-arm64v8.apk", "size": 46558706 },
+		{ "download_count": 20814, "name": "LocalSend-1.18.2-android-google-play.apk", "size": 128293112 },
+		{ "download_count": 8419, "name": "LocalSend-1.18.2-android-x64.apk", "size": 48939435 },
+		{ "download_count": 7086, "name": "LocalSend-1.18.2-linux-arm-64.deb", "size": 24662482 },
+		{ "download_count": 2858, "name": "LocalSend-1.18.2-linux-arm-64.tar.gz", "size": 32354331 },
+		{ "download_count": 27746, "name": "LocalSend-1.18.2-linux-x86-64.AppImage", "size": 66471104 },
+		{ "download_count": 97861, "name": "LocalSend-1.18.2-linux-x86-64.deb", "size": 24665458 },
+		{ "download_count": 17092, "name": "LocalSend-1.18.2-linux-x86-64.tar.gz", "size": 32011656 },
+		{ "download_count": 7027, "name": "LocalSend-1.18.2-windows-arm-64.zip", "size": 24414965 },
+		{ "download_count": 172877, "name": "LocalSend-1.18.2-windows-x86-64-unsigned.exe", "size": 18960550 },
+		{ "download_count": 760971, "name": "LocalSend-1.18.2-windows-x86-64.exe", "size": 19901144 },
+		{ "download_count": 143415, "name": "LocalSend-1.18.2-windows-x86-64.zip", "size": 26113764 },
+		{ "download_count": 644637, "name": "LocalSend-1.18.2.dmg", "size": 52700247 },
+		{ "download_count": 1308, "name": "LocalSend-CLI-1.18.2-linux-arm-64.tar.gz", "size": 4639269 },
+		{ "download_count": 3139, "name": "LocalSend-CLI-1.18.2-linux-x86-64.tar.gz", "size": 4762297 },
+		{ "download_count": 1989, "name": "LocalSend-CLI-1.18.2-macos-arm-64.tar.gz", "size": 4105018 },
+		{ "download_count": 1347, "name": "LocalSend-CLI-1.18.2-macos-x86-64.tar.gz", "size": 4397211 },
+		{ "download_count": 1358, "name": "LocalSend-CLI-1.18.2-windows-arm-64.exe", "size": 8355328 },
+		{ "download_count": 6117, "name": "LocalSend-CLI-1.18.2-windows-x86-64.exe", "size": 9725952 }
+	],
+	"tag": "v1.18.2"
+}

@@ -1,0 +1,19 @@
+{
+	"assets": [
+		{ "download_count": 3181, "name": "checksums.txt", "size": 1314 },
+		{ "download_count": 39113, "name": "lazygit_0.66.2_darwin_arm64.tar.gz", "size": 6931517 },
+		{ "download_count": 898, "name": "lazygit_0.66.2_darwin_x86_64.tar.gz", "size": 7452605 },
+		{ "download_count": 49, "name": "lazygit_0.66.2_freebsd_32-bit.tar.gz", "size": 6925276 },
+		{ "download_count": 47, "name": "lazygit_0.66.2_freebsd_arm64.tar.gz", "size": 6616082 },
+		{ "download_count": 45, "name": "lazygit_0.66.2_freebsd_armv6.tar.gz", "size": 6902741 },
+		{ "download_count": 67, "name": "lazygit_0.66.2_freebsd_x86_64.tar.gz", "size": 7298017 },
+		{ "download_count": 165, "name": "lazygit_0.66.2_linux_32-bit.tar.gz", "size": 6974536 },
+		{ "download_count": 5175, "name": "lazygit_0.66.2_linux_arm64.tar.gz", "size": 6654577 },
+		{ "download_count": 199, "name": "lazygit_0.66.2_linux_armv6.tar.gz", "size": 6938398 },
+		{ "download_count": 31744, "name": "lazygit_0.66.2_linux_x86_64.tar.gz", "size": 7332397 },
+		{ "download_count": 385, "name": "lazygit_0.66.2_windows_32-bit.zip", "size": 7271224 },
+		{ "download_count": 328, "name": "lazygit_0.66.2_windows_arm64.zip", "size": 6757250 },
+		{ "download_count": 5954, "name": "lazygit_0.66.2_windows_x86_64.zip", "size": 7574703 }
+	],
+	"tag": "v0.66.2"
+}

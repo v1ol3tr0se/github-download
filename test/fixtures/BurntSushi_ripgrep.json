@@ -1,0 +1,33 @@
+{
+	"assets": [
+		{ "download_count": 1404576, "name": "ripgrep-15.2.0-aarch64-apple-darwin.tar.gz", "size": 1764284 },
+		{ "download_count": 41741, "name": "ripgrep-15.2.0-aarch64-apple-darwin.tar.gz.sha256", "size": 109 },
+		{ "download_count": 150972, "name": "ripgrep-15.2.0-aarch64-pc-windows-msvc.zip", "size": 1640124 },
+		{ "download_count": 4804, "name": "ripgrep-15.2.0-aarch64-pc-windows-msvc.zip.sha256", "size": 179 },
+		{ "download_count": 1134152, "name": "ripgrep-15.2.0-aarch64-unknown-linux-gnu.tar.gz", "size": 1854661 },
+		{ "download_count": 12886, "name": "ripgrep-15.2.0-aarch64-unknown-linux-gnu.tar.gz.sha256", "size": 114 },
+		{ "download_count": 368082, "name": "ripgrep-15.2.0-aarch64-unknown-linux-musl.tar.gz", "size": 1982561 },
+		{ "download_count": 12047, "name": "ripgrep-15.2.0-aarch64-unknown-linux-musl.tar.gz.sha256", "size": 115 },
+		{ "download_count": 1098, "name": "ripgrep-15.2.0-armv7-unknown-linux-gnueabihf.tar.gz", "size": 1811537 },
+		{ "download_count": 1513, "name": "ripgrep-15.2.0-armv7-unknown-linux-gnueabihf.tar.gz.sha256", "size": 118 },
+		{ "download_count": 723, "name": "ripgrep-15.2.0-armv7-unknown-linux-musleabi.tar.gz", "size": 1830011 },
+		{ "download_count": 1145, "name": "ripgrep-15.2.0-armv7-unknown-linux-musleabi.tar.gz.sha256", "size": 117 },
+		{ "download_count": 7219, "name": "ripgrep-15.2.0-armv7-unknown-linux-musleabihf.tar.gz", "size": 1826012 },
+		{ "download_count": 1299, "name": "ripgrep-15.2.0-armv7-unknown-linux-musleabihf.tar.gz.sha256", "size": 119 },
+		{ "download_count": 3034, "name": "ripgrep-15.2.0-i686-pc-windows-msvc.zip", "size": 1642641 },
+		{ "download_count": 1780, "name": "ripgrep-15.2.0-i686-pc-windows-msvc.zip.sha256", "size": 176 },
+		{ "download_count": 1087, "name": "ripgrep-15.2.0-s390x-unknown-linux-gnu.tar.gz", "size": 2243230 },
+		{ "download_count": 1173, "name": "ripgrep-15.2.0-s390x-unknown-linux-gnu.tar.gz.sha256", "size": 112 },
+		{ "download_count": 285706, "name": "ripgrep-15.2.0-x86_64-apple-darwin.tar.gz", "size": 1878284 },
+		{ "download_count": 16480, "name": "ripgrep-15.2.0-x86_64-apple-darwin.tar.gz.sha256", "size": 108 },
+		{ "download_count": 10581, "name": "ripgrep-15.2.0-x86_64-pc-windows-gnu.zip", "size": 1878957 },
+		{ "download_count": 1614, "name": "ripgrep-15.2.0-x86_64-pc-windows-gnu.zip.sha256", "size": 177 },
+		{ "download_count": 2206869, "name": "ripgrep-15.2.0-x86_64-pc-windows-msvc.zip", "size": 1789611 },
+		{ "download_count": 28721, "name": "ripgrep-15.2.0-x86_64-pc-windows-msvc.zip.sha256", "size": 178 },
+		{ "download_count": 3660112, "name": "ripgrep-15.2.0-x86_64-unknown-linux-musl.tar.gz", "size": 2265718 },
+		{ "download_count": 106624, "name": "ripgrep-15.2.0-x86_64-unknown-linux-musl.tar.gz.sha256", "size": 114 },
+		{ "download_count": 18006, "name": "ripgrep_15.2.0-1_amd64.deb", "size": 1703492 },
+		{ "download_count": 2582, "name": "ripgrep_15.2.0-1_amd64.deb.sha256", "size": 93 }
+	],
+	"tag": "15.2.0"
+}

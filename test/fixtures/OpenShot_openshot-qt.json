@@ -1,0 +1,21 @@
+{
+	"assets": [
+		{ "download_count": 10405, "name": "OpenShot-v4.0.1-x86.exe", "size": 221256464 },
+		{ "download_count": 387, "name": "OpenShot-v4.0.1-x86.exe.sha256sum", "size": 89 },
+		{ "download_count": 449, "name": "OpenShot-v4.0.1-x86.exe.sha256sum.verify", "size": 296 },
+		{ "download_count": 414, "name": "OpenShot-v4.0.1-x86.exe.torrent", "size": 17399 },
+		{ "download_count": 19515, "name": "OpenShot-v4.0.1-x86_64.AppImage", "size": 252982464 },
+		{ "download_count": 1116, "name": "OpenShot-v4.0.1-x86_64.AppImage.sha256sum", "size": 97 },
+		{ "download_count": 4641, "name": "OpenShot-v4.0.1-x86_64.AppImage.sha256sum.verify", "size": 312 },
+		{ "download_count": 1930, "name": "OpenShot-v4.0.1-x86_64.AppImage.torrent", "size": 19835 },
+		{ "download_count": 19771, "name": "OpenShot-v4.0.1-x86_64.dmg", "size": 292433992 },
+		{ "download_count": 153, "name": "OpenShot-v4.0.1-x86_64.dmg.sha256sum", "size": 92 },
+		{ "download_count": 4338, "name": "OpenShot-v4.0.1-x86_64.dmg.sha256sum.verify", "size": 302 },
+		{ "download_count": 1870, "name": "OpenShot-v4.0.1-x86_64.dmg.torrent", "size": 22825 },
+		{ "download_count": 168316, "name": "OpenShot-v4.0.1-x86_64.exe", "size": 226561445 },
+		{ "download_count": 393, "name": "OpenShot-v4.0.1-x86_64.exe.sha256sum", "size": 92 },
+		{ "download_count": 6409, "name": "OpenShot-v4.0.1-x86_64.exe.sha256sum.verify", "size": 302 },
+		{ "download_count": 2677, "name": "OpenShot-v4.0.1-x86_64.exe.torrent", "size": 17805 }
+	],
+	"tag": "v4.0.1"
+}

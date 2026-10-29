@@ -1,0 +1,19 @@
+{
+	"assets": [
+		{ "download_count": 909, "name": "alacritty-bindings.5.gz", "size": 1926 },
+		{ "download_count": 695, "name": "alacritty-escapes.7.gz", "size": 1427 },
+		{ "download_count": 720, "name": "alacritty-msg.1.gz", "size": 1156 },
+		{ "download_count": 100217, "name": "Alacritty-v0.17.0-installer.msi", "size": 2396160 },
+		{ "download_count": 55182, "name": "Alacritty-v0.17.0-portable.exe", "size": 6003200 },
+		{ "download_count": 328074, "name": "Alacritty-v0.17.0.dmg", "size": 6136240 },
+		{ "download_count": 976, "name": "alacritty.1.gz", "size": 1685 },
+		{ "download_count": 818, "name": "alacritty.5.gz", "size": 9453 },
+		{ "download_count": 1588, "name": "alacritty.bash", "size": 17938 },
+		{ "download_count": 1288, "name": "Alacritty.desktop", "size": 338 },
+		{ "download_count": 734, "name": "alacritty.fish", "size": 8878 },
+		{ "download_count": 782, "name": "alacritty.info", "size": 5003 },
+		{ "download_count": 768, "name": "Alacritty.svg", "size": 17196 },
+		{ "download_count": 759, "name": "_alacritty", "size": 11267 }
+	],
+	"tag": "v0.17.0"
+}

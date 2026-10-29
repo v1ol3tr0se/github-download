@@ -1,0 +1,21 @@
+{
+	"manifest_version": 3,
+	"name": "GitHub — DOWNLOAD",
+	"version": "1.0.0",
+	"description": "A big ass DOWNLOAD button on every GitHub repo that grabs the right file for your system.",
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "github-download@v1ol3tr0se",
+			"strict_min_version": "128.0"
+		}
+	},
+	"host_permissions": ["https://github.com/*"],
+	"content_scripts": [
+		{
+			"matches": ["https://github.com/*"],
+			"js": ["pick.js", "content.js"],
+			"css": ["big.css"],
+			"run_at": "document_idle"
+		}
+	]
+}

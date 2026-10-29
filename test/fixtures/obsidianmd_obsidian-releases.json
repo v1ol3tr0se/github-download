@@ -1,0 +1,13 @@
+{
+	"assets": [
+		{ "download_count": 1870, "name": "Obsidian-1.14.5-arm64.AppImage", "size": 140393056 },
+		{ "download_count": 1020, "name": "obsidian-1.14.5-arm64.tar.gz", "size": 132552001 },
+		{ "download_count": 20809, "name": "Obsidian-1.14.5.AppImage", "size": 139238201 },
+		{ "download_count": 505888, "name": "obsidian-1.14.5.asar.gz", "size": 9462500 },
+		{ "download_count": 463890, "name": "Obsidian-1.14.5.dmg", "size": 234801441 },
+		{ "download_count": 371471, "name": "Obsidian-1.14.5.exe", "size": 342084056 },
+		{ "download_count": 7331, "name": "obsidian-1.14.5.tar.gz", "size": 131695894 },
+		{ "download_count": 14701, "name": "obsidian_1.14.5_amd64.deb", "size": 108711244 }
+	],
+	"tag": "v1.14.5"
+}

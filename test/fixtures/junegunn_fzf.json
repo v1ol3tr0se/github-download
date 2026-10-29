@@ -1,0 +1,31 @@
+{
+	"assets": [
+		{ "download_count": 239, "name": "fzf-0.74.5-android_arm64.tar.gz", "size": 2171304 },
+		{ "download_count": 2725, "name": "fzf-0.74.5-darwin_amd64.tar.gz", "size": 2362114 },
+		{ "download_count": 13102, "name": "fzf-0.74.5-darwin_arm64.tar.gz", "size": 2154490 },
+		{ "download_count": 155, "name": "fzf-0.74.5-freebsd_amd64.tar.gz", "size": 2261218 },
+		{ "download_count": 157160, "name": "fzf-0.74.5-linux_amd64.tar.gz", "size": 2291079 },
+		{ "download_count": 18686, "name": "fzf-0.74.5-linux_arm64.tar.gz", "size": 2078357 },
+		{ "download_count": 110, "name": "fzf-0.74.5-linux_armv5.tar.gz", "size": 2163034 },
+		{ "download_count": 179, "name": "fzf-0.74.5-linux_armv6.tar.gz", "size": 2155367 },
+		{ "download_count": 261, "name": "fzf-0.74.5-linux_armv7.tar.gz", "size": 2150362 },
+		{ "download_count": 107, "name": "fzf-0.74.5-linux_loong64.tar.gz", "size": 2189434 },
+		{ "download_count": 107, "name": "fzf-0.74.5-linux_ppc64le.tar.gz", "size": 2111483 },
+		{ "download_count": 131, "name": "fzf-0.74.5-linux_riscv64.tar.gz", "size": 2150796 },
+		{ "download_count": 105, "name": "fzf-0.74.5-linux_s390x.tar.gz", "size": 2199750 },
+		{ "download_count": 93, "name": "fzf-0.74.5-openbsd_amd64.tar.gz", "size": 2257187 },
+		{ "download_count": 35148, "name": "fzf-0.74.5-windows_amd64.zip", "size": 2544236 },
+		{ "download_count": 1014, "name": "fzf-0.74.5-windows_arm64.zip", "size": 2292730 },
+		{ "download_count": 679, "name": "fzf_0.74.5_amd64.deb", "size": 2320404 },
+		{ "download_count": 150, "name": "fzf_0.74.5_arm64.deb", "size": 2107444 },
+		{ "download_count": 94, "name": "fzf_0.74.5_armv5.deb", "size": 2191406 },
+		{ "download_count": 91, "name": "fzf_0.74.5_armv6.deb", "size": 2182890 },
+		{ "download_count": 89, "name": "fzf_0.74.5_armv7.deb", "size": 2177408 },
+		{ "download_count": 3189, "name": "fzf_0.74.5_checksums.txt", "size": 2337 },
+		{ "download_count": 88, "name": "fzf_0.74.5_loong64.deb", "size": 2219044 },
+		{ "download_count": 85, "name": "fzf_0.74.5_ppc64le.deb", "size": 2139194 },
+		{ "download_count": 87, "name": "fzf_0.74.5_riscv64.deb", "size": 2179564 },
+		{ "download_count": 91, "name": "fzf_0.74.5_s390x.deb", "size": 2227802 }
+	],
+	"tag": "v0.74.5"
+}

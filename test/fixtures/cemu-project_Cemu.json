@@ -1,0 +1,9 @@
+{
+	"assets": [
+		{ "download_count": 391082, "name": "cemu-2.6-macos-12-x64.dmg", "size": 36588188 },
+		{ "download_count": 59623, "name": "cemu-2.6-ubuntu-22.04-x64.zip", "size": 31825643 },
+		{ "download_count": 2895148, "name": "cemu-2.6-windows-x64.zip", "size": 26374093 },
+		{ "download_count": 694549, "name": "Cemu-2.6-x86_64.AppImage", "size": 61423960 }
+	],
+	"tag": "v2.6"
+}

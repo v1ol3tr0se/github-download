@@ -1,0 +1,9 @@
+{
+	"assets": [
+		{ "download_count": 1138, "name": "assets.jar", "size": 35390558 },
+		{ "download_count": 1914, "name": "dependencies.jar", "size": 15442202 },
+		{ "download_count": 9190, "name": "Mindustry.jar", "size": 88677884 },
+		{ "download_count": 4229, "name": "server-release.jar", "size": 19453000 }
+	],
+	"tag": "v160.7"
+}

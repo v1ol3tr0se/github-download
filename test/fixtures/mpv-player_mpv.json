@@ -1,0 +1,13 @@
+{
+	"assets": [
+		{ "download_count": 16483, "name": "mpv-v0.41.0-aarch64-pc-windows-msvc.zip", "size": 71498137 },
+		{ "download_count": 6462, "name": "mpv-v0.41.0-i686-w64-mingw32.zip", "size": 35194752 },
+		{ "download_count": 4832, "name": "mpv-v0.41.0-macos-14-arm.zip", "size": 43693888 },
+		{ "download_count": 3425, "name": "mpv-v0.41.0-macos-15-arm.zip", "size": 43957643 },
+		{ "download_count": 4399, "name": "mpv-v0.41.0-macos-15-intel.zip", "size": 49288843 },
+		{ "download_count": 7599, "name": "mpv-v0.41.0-macos-26-arm.zip", "size": 43704958 },
+		{ "download_count": 73710, "name": "mpv-v0.41.0-x86_64-pc-windows-msvc.zip", "size": 77205127 },
+		{ "download_count": 13106, "name": "mpv-v0.41.0-x86_64-w64-mingw32.zip", "size": 39002683 }
+	],
+	"tag": "v0.41.0"
+}

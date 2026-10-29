@@ -1,0 +1,38 @@
+#gh-big-download {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	width: calc(100% - 64px);
+	max-width: 1216px;
+	min-height: 180px;
+	margin: 24px auto 8px;
+	border: 0;
+	border-radius: 16px;
+	background: var(--button-primary-bgColor-rest, #1f883d);
+	color: var(--button-primary-fgColor-rest, #fff);
+	font: 900 clamp(48px, 9vw, 120px) / 1 var(--fontStack-sansSerif, sans-serif);
+	letter-spacing: 0.06em;
+	cursor: pointer;
+}
+
+#gh-big-download:hover {
+	background: var(--button-primary-bgColor-hover, #1c8139);
+}
+
+#gh-big-download:focus-visible {
+	outline: 3px solid var(--focus-outlineColor, #0969da);
+	outline-offset: 4px;
+}
+
+#gh-big-download small {
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0;
+	opacity: 0.85;
+}
+
+#gh-big-download small:empty {
+	display: none;
+}

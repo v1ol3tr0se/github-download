@@ -1,0 +1,22 @@
+{
+	"assets": [
+		{ "download_count": 20322, "name": "install.ps1", "size": 22627 },
+		{ "download_count": 37736, "name": "install.sh", "size": 15902 },
+		{ "download_count": 2320, "name": "ollama-darwin.tgz", "size": 186398711 },
+		{ "download_count": 217819, "name": "Ollama-darwin.zip", "size": 229486920 },
+		{ "download_count": 177, "name": "ollama-linux-amd64-mlx.tar.zst", "size": 1231805954 },
+		{ "download_count": 2949, "name": "ollama-linux-amd64-rocm.tar.zst", "size": 1052915111 },
+		{ "download_count": 36587, "name": "ollama-linux-amd64.tar.zst", "size": 1525425005 },
+		{ "download_count": 97, "name": "ollama-linux-arm64-jetpack5.tar.zst", "size": 301522124 },
+		{ "download_count": 188, "name": "ollama-linux-arm64-jetpack6.tar.zst", "size": 273222727 },
+		{ "download_count": 3396, "name": "ollama-linux-arm64.tar.zst", "size": 1582120565 },
+		{ "download_count": 284, "name": "ollama-windows-amd64-mlx.zip", "size": 924245854 },
+		{ "download_count": 1302, "name": "ollama-windows-amd64-rocm.zip", "size": 256891207 },
+		{ "download_count": 17255, "name": "ollama-windows-amd64.zip", "size": 1601458136 },
+		{ "download_count": 299, "name": "ollama-windows-arm64.zip", "size": 215776808 },
+		{ "download_count": 7476, "name": "Ollama.dmg", "size": 230252767 },
+		{ "download_count": 253059, "name": "OllamaSetup.exe", "size": 1675264152 },
+		{ "download_count": 3431, "name": "sha256sum.txt", "size": 1472 }
+	],
+	"tag": "v0.40.12"
+}

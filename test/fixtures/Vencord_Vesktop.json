@@ -1,0 +1,26 @@
+{
+	"assets": [
+		{ "download_count": 114, "name": "dev.vencord.Vesktop.metainfo.xml", "size": 21431 },
+		{ "download_count": 1300, "name": "latest-linux-arm64.yml", "size": 686 },
+		{ "download_count": 81569, "name": "latest-linux.yml", "size": 674 },
+		{ "download_count": 26171, "name": "latest-mac.yml", "size": 517 },
+		{ "download_count": 164033, "name": "latest.yml", "size": 343 },
+		{ "download_count": 177, "name": "Vesktop-1.6.8-arm64-win.zip", "size": 151990504 },
+		{ "download_count": 199, "name": "Vesktop-1.6.8-arm64.AppImage", "size": 118969094 },
+		{ "download_count": 211, "name": "vesktop-1.6.8-arm64.tar.gz", "size": 121722365 },
+		{ "download_count": 2943, "name": "Vesktop-1.6.8-universal-mac.zip", "size": 226925655 },
+		{ "download_count": 1394, "name": "Vesktop-1.6.8-universal-mac.zip.blockmap", "size": 235747 },
+		{ "download_count": 2142, "name": "Vesktop-1.6.8-universal.dmg", "size": 234620399 },
+		{ "download_count": 2, "name": "Vesktop-1.6.8-universal.dmg.blockmap", "size": 245745 },
+		{ "download_count": 1151, "name": "Vesktop-1.6.8-win.zip", "size": 154020649 },
+		{ "download_count": 205, "name": "vesktop-1.6.8.aarch64.rpm", "size": 85357685 },
+		{ "download_count": 2716, "name": "Vesktop-1.6.8.AppImage", "size": 118842712 },
+		{ "download_count": 8423, "name": "vesktop-1.6.8.tar.gz", "size": 120842232 },
+		{ "download_count": 4419, "name": "vesktop-1.6.8.x86_64.rpm", "size": 89973837 },
+		{ "download_count": 28729, "name": "Vesktop-Setup-1.6.8.exe", "size": 236460916 },
+		{ "download_count": 20741, "name": "Vesktop-Setup-1.6.8.exe.blockmap", "size": 246486 },
+		{ "download_count": 7000, "name": "vesktop_1.6.8_amd64.deb", "size": 100693936 },
+		{ "download_count": 227, "name": "vesktop_1.6.8_arm64.deb", "size": 95761496 }
+	],
+	"tag": "v1.6.8"
+}

@@ -1,0 +1,17 @@
+{
+	"assets": [
+		{ "download_count": 7594, "name": "nvim-linux-arm64.appimage", "size": 11356680 },
+		{ "download_count": 130, "name": "nvim-linux-arm64.appimage.zsync", "size": 39043 },
+		{ "download_count": 11164, "name": "nvim-linux-arm64.tar.gz", "size": 11367117 },
+		{ "download_count": 10191, "name": "nvim-linux-x86_64.appimage", "size": 11454968 },
+		{ "download_count": 1422, "name": "nvim-linux-x86_64.appimage.zsync", "size": 39381 },
+		{ "download_count": 95810, "name": "nvim-linux-x86_64.tar.gz", "size": 11404582 },
+		{ "download_count": 9831, "name": "nvim-macos-arm64.tar.gz", "size": 9595887 },
+		{ "download_count": 2669, "name": "nvim-macos-x86_64.tar.gz", "size": 9844257 },
+		{ "download_count": 1646, "name": "nvim-win-arm64.msi", "size": 13017148 },
+		{ "download_count": 566, "name": "nvim-win-arm64.zip", "size": 13188877 },
+		{ "download_count": 34812, "name": "nvim-win64.msi", "size": 12460092 },
+		{ "download_count": 16982, "name": "nvim-win64.zip", "size": 12624741 }
+	],
+	"tag": "v0.12.6"
+}

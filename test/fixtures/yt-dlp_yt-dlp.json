@@ -1,0 +1,29 @@
+{
+	"assets": [
+		{ "download_count": 151412, "name": "SHA2-256SUMS", "size": 1595 },
+		{ "download_count": 15683, "name": "SHA2-256SUMS.sig", "size": 566 },
+		{ "download_count": 299, "name": "SHA2-512SUMS", "size": 2811 },
+		{ "download_count": 207, "name": "SHA2-512SUMS.sig", "size": 566 },
+		{ "download_count": 274562, "name": "yt-dlp", "size": 3073072 },
+		{ "download_count": 209786, "name": "yt-dlp.exe", "size": 23575744 },
+		{ "download_count": 1911, "name": "yt-dlp.tar.gz", "size": 6019106 },
+		{ "download_count": 1387, "name": "yt-dlp_arm64.exe", "size": 22809590 },
+		{ "download_count": 47046, "name": "yt-dlp_linux", "size": 41166968 },
+		{ "download_count": 2012, "name": "yt-dlp_linux.zip", "size": 41236547 },
+		{ "download_count": 3270, "name": "yt-dlp_linux_aarch64", "size": 40789792 },
+		{ "download_count": 567, "name": "yt-dlp_linux_aarch64.zip", "size": 40835009 },
+		{ "download_count": 459, "name": "yt-dlp_linux_armv7l.zip", "size": 39362808 },
+		{ "download_count": 26558, "name": "yt-dlp_macos", "size": 37466304 },
+		{ "download_count": 13121, "name": "yt-dlp_macos.zip", "size": 54165284 },
+		{ "download_count": 1844, "name": "yt-dlp_musllinux", "size": 41225600 },
+		{ "download_count": 393, "name": "yt-dlp_musllinux.zip", "size": 41367877 },
+		{ "download_count": 362, "name": "yt-dlp_musllinux_aarch64", "size": 40524824 },
+		{ "download_count": 329, "name": "yt-dlp_musllinux_aarch64.zip", "size": 40628181 },
+		{ "download_count": 10137, "name": "yt-dlp_win.zip", "size": 23885596 },
+		{ "download_count": 525, "name": "yt-dlp_win_arm64.zip", "size": 23179217 },
+		{ "download_count": 951, "name": "yt-dlp_win_x86.zip", "size": 18729496 },
+		{ "download_count": 22156, "name": "yt-dlp_x86.exe", "size": 18618344 },
+		{ "download_count": 112452, "name": "_update_spec", "size": 2777 }
+	],
+	"tag": "2026.10.26"
+}

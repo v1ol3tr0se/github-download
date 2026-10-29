@@ -1,0 +1,14 @@
+{
+	"assets": [
+		{ "download_count": 766, "name": "td-portable-win-arm-7.3.3.zip", "size": 75533032 },
+		{ "download_count": 7067, "name": "td-portable-win-x64-7.3.3.zip", "size": 81690714 },
+		{ "download_count": 1311, "name": "td-portable-win-x86-7.3.3.zip", "size": 72869912 },
+		{ "download_count": 1852, "name": "td-setup-linux-x64-7.3.3.tar.xz", "size": 86871280 },
+		{ "download_count": 5071, "name": "td-setup-mac-7.3.3.dmg", "size": 171722725 },
+		{ "download_count": 1332, "name": "td-setup-win-arm-7.3.3.exe", "size": 57003552 },
+		{ "download_count": 75263, "name": "td-setup-win-x64-7.3.3.exe", "size": 63102944 },
+		{ "download_count": 2614, "name": "td-setup-win-x86-7.3.3.exe", "size": 57053096 },
+		{ "download_count": 712, "name": "tdesktop-7.3.3-full.tar.gz", "size": 78820287 }
+	],
+	"tag": "v7.3.3"
+}

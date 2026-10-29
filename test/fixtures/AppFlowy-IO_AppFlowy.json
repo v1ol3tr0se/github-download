@@ -1,0 +1,18 @@
+{
+	"assets": [
+		{ "download_count": 770, "name": "AppFlowy-0.14.11-android.apk", "size": 249349280 },
+		{ "download_count": 269, "name": "AppFlowy-0.14.11-linux-x86_64.AppImage", "size": 181549560 },
+		{ "download_count": 441, "name": "AppFlowy-0.14.11-linux-x86_64.deb", "size": 142863328 },
+		{ "download_count": 49, "name": "AppFlowy-0.14.11-linux-x86_64.rpm", "size": 194622562 },
+		{ "download_count": 82, "name": "AppFlowy-0.14.11-linux-x86_64.tar.gz", "size": 195570842 },
+		{ "download_count": 148, "name": "AppFlowy-0.14.11-macos-arm64.dmg", "size": 116110311 },
+		{ "download_count": 47, "name": "AppFlowy-0.14.11-macos-arm64.zip", "size": 117265562 },
+		{ "download_count": 282, "name": "AppFlowy-0.14.11-macos-universal.dmg", "size": 225569716 },
+		{ "download_count": 667, "name": "AppFlowy-0.14.11-macos-universal.zip", "size": 227260722 },
+		{ "download_count": 48, "name": "AppFlowy-0.14.11-macos-x86_64.dmg", "size": 124749919 },
+		{ "download_count": 1626, "name": "AppFlowy-0.14.11-windows-x86_64.exe", "size": 91465792 },
+		{ "download_count": 236, "name": "AppFlowy-0.14.11-windows-x86_64.zip", "size": 132282011 },
+		{ "download_count": 5839, "name": "desktop-update.json", "size": 66 }
+	],
+	"tag": "0.14.11"
+}

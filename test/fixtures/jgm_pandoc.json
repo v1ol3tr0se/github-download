@@ -1,0 +1,16 @@
+{
+	"assets": [
+		{ "download_count": 5654, "name": "pandoc-3.13-1-amd64.deb", "size": 35507160 },
+		{ "download_count": 768, "name": "pandoc-3.13-1-arm64.deb", "size": 38104340 },
+		{ "download_count": 857, "name": "pandoc-3.13-arm64-macOS.pkg", "size": 43007626 },
+		{ "download_count": 1238, "name": "pandoc-3.13-arm64-macOS.zip", "size": 43148194 },
+		{ "download_count": 5437, "name": "pandoc-3.13-linux-amd64.tar.gz", "size": 36101020 },
+		{ "download_count": 665, "name": "pandoc-3.13-linux-arm64.tar.gz", "size": 38662042 },
+		{ "download_count": 202, "name": "pandoc-3.13-wasm.zip", "size": 16977768 },
+		{ "download_count": 29882, "name": "pandoc-3.13-windows-x86_64.msi", "size": 42700800 },
+		{ "download_count": 8575, "name": "pandoc-3.13-windows-x86_64.zip", "size": 42983200 },
+		{ "download_count": 683, "name": "pandoc-3.13-x86_64-macOS.pkg", "size": 26831967 },
+		{ "download_count": 260, "name": "pandoc-3.13-x86_64-macOS.zip", "size": 26891866 }
+	],
+	"tag": "3.13"
+}

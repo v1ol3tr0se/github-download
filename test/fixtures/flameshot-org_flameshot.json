@@ -1,0 +1,81 @@
+{
+	"assets": [
+		{ "download_count": 73213, "name": "Flameshot-14.0-macos-arm64.dmg", "size": 40337524 },
+		{ "download_count": 2066, "name": "Flameshot-14.0-macos-arm64.dmg.sha256sum", "size": 97 },
+		{ "download_count": 5517, "name": "Flameshot-14.0-macos-intel.dmg", "size": 40337550 },
+		{ "download_count": 297, "name": "Flameshot-14.0-macos-intel.dmg.sha256sum", "size": 97 },
+		{ "download_count": 182699, "name": "Flameshot-14.0.0-win64.msi", "size": 19030016 },
+		{ "download_count": 557, "name": "Flameshot-14.0.0-win64.msi.sha256sum", "size": 93 },
+		{ "download_count": 27487, "name": "flameshot-14.0.0-win64.zip", "size": 55619743 },
+		{ "download_count": 454, "name": "flameshot-14.0.0-win64.zip.sha256sum", "size": 93 },
+		{ "download_count": 7415, "name": "flameshot-v14.0+git0.da6121bd-artifact-appimage-x86_64.zip", "size": 57437346 },
+		{
+			"download_count": 816,
+			"name": "flameshot-v14.0+git0.da6121bd-artifact-appimage-x86_64.zip.sha256sum",
+			"size": 125
+		},
+		{ "download_count": 2489, "name": "flameshot-v14.0+git0.da6121bd-artifact-debian-12-amd64.zip", "size": 819137 },
+		{
+			"download_count": 236,
+			"name": "flameshot-v14.0+git0.da6121bd-artifact-debian-12-amd64.zip.sha256sum",
+			"size": 125
+		},
+		{ "download_count": 441, "name": "flameshot-v14.0+git0.da6121bd-artifact-debian-12-arm64.zip", "size": 765648 },
+		{
+			"download_count": 148,
+			"name": "flameshot-v14.0+git0.da6121bd-artifact-debian-12-arm64.zip.sha256sum",
+			"size": 125
+		},
+		{ "download_count": 243, "name": "flameshot-v14.0+git0.da6121bd-artifact-debian-12-armhf.zip", "size": 735534 },
+		{
+			"download_count": 137,
+			"name": "flameshot-v14.0+git0.da6121bd-artifact-debian-12-armhf.zip.sha256sum",
+			"size": 125
+		},
+		{ "download_count": 345, "name": "flameshot-v14.0+git0.da6121bd-artifact-fedora-41-x86_64.zip", "size": 791044 },
+		{
+			"download_count": 130,
+			"name": "flameshot-v14.0+git0.da6121bd-artifact-fedora-41-x86_64.zip.sha256sum",
+			"size": 126
+		},
+		{ "download_count": 571, "name": "flameshot-v14.0+git0.da6121bd-artifact-fedora-42-x86_64.zip", "size": 796623 },
+		{
+			"download_count": 173,
+			"name": "flameshot-v14.0+git0.da6121bd-artifact-fedora-42-x86_64.zip.sha256sum",
+			"size": 126
+		},
+		{ "download_count": 547, "name": "flameshot-v14.0+git0.da6121bd-artifact-flatpak-x86_64.zip", "size": 1602078 },
+		{
+			"download_count": 143,
+			"name": "flameshot-v14.0+git0.da6121bd-artifact-flatpak-x86_64.zip.sha256sum",
+			"size": 124
+		},
+		{ "download_count": 439, "name": "flameshot-v14.0+git0.da6121bd-artifact-snap-x86_64.zip", "size": 40487298 },
+		{ "download_count": 145, "name": "flameshot-v14.0+git0.da6121bd-artifact-snap-x86_64.zip.sha256sum", "size": 121 },
+		{ "download_count": 2053, "name": "flameshot-v14.0+git0.da6121bd-artifact-ubuntu-22.04-amd64.zip", "size": 767943 },
+		{
+			"download_count": 297,
+			"name": "flameshot-v14.0+git0.da6121bd-artifact-ubuntu-22.04-amd64.zip.sha256sum",
+			"size": 128
+		},
+		{ "download_count": 368, "name": "flameshot-v14.0+git0.da6121bd-artifact-ubuntu-22.04-arm64.zip", "size": 739005 },
+		{
+			"download_count": 146,
+			"name": "flameshot-v14.0+git0.da6121bd-artifact-ubuntu-22.04-arm64.zip.sha256sum",
+			"size": 128
+		},
+		{ "download_count": 6788, "name": "flameshot-v14.0+git0.da6121bd-artifact-ubuntu-24.04-amd64.zip", "size": 752374 },
+		{
+			"download_count": 779,
+			"name": "flameshot-v14.0+git0.da6121bd-artifact-ubuntu-24.04-amd64.zip.sha256sum",
+			"size": 128
+		},
+		{ "download_count": 831, "name": "flameshot-v14.0+git0.da6121bd-artifact-ubuntu-24.04-arm64.zip", "size": 731712 },
+		{
+			"download_count": 256,
+			"name": "flameshot-v14.0+git0.da6121bd-artifact-ubuntu-24.04-arm64.zip.sha256sum",
+			"size": 128
+		}
+	],
+	"tag": "v14.0.0"
+}

@@ -1,0 +1,33 @@
+{
+	"assets": [
+		{ "download_count": 880, "name": "Heroic-2.22.4-linux-aarch64.pacman", "size": 110429528 },
+		{ "download_count": 871, "name": "Heroic-2.22.4-linux-aarch64.rpm", "size": 107951541 },
+		{ "download_count": 6051, "name": "Heroic-2.22.4-linux-amd64.deb", "size": 127567920 },
+		{ "download_count": 5201, "name": "Heroic-2.22.4-linux-arm64.AppImage", "size": 157739593 },
+		{ "download_count": 497, "name": "Heroic-2.22.4-linux-arm64.deb", "size": 120918928 },
+		{ "download_count": 183, "name": "Heroic-2.22.4-linux-arm64.tar.xz", "size": 107161552 },
+		{ "download_count": 15111, "name": "Heroic-2.22.4-linux-x64.pacman", "size": 117044600 },
+		{ "download_count": 647, "name": "Heroic-2.22.4-linux-x64.tar.xz", "size": 113294664 },
+		{ "download_count": 5959, "name": "Heroic-2.22.4-linux-x86_64.AppImage", "size": 158632422 },
+		{ "download_count": 2564, "name": "Heroic-2.22.4-linux-x86_64.rpm", "size": 114241593 },
+		{ "download_count": 9982, "name": "Heroic-2.22.4-macOS-arm64.dmg", "size": 169869962 },
+		{ "download_count": 23, "name": "Heroic-2.22.4-macOS-arm64.dmg.blockmap", "size": 178412 },
+		{ "download_count": 5361, "name": "Heroic-2.22.4-macOS-arm64.zip", "size": 164372354 },
+		{ "download_count": 2898, "name": "Heroic-2.22.4-macOS-arm64.zip.blockmap", "size": 172690 },
+		{ "download_count": 1307, "name": "Heroic-2.22.4-macOS-x64.dmg", "size": 176421205 },
+		{ "download_count": 23, "name": "Heroic-2.22.4-macOS-x64.dmg.blockmap", "size": 184359 },
+		{ "download_count": 378, "name": "Heroic-2.22.4-macOS-x64.zip", "size": 170969504 },
+		{ "download_count": 179, "name": "Heroic-2.22.4-macOS-x64.zip.blockmap", "size": 178058 },
+		{ "download_count": 404, "name": "Heroic-2.22.4-Portable-arm64.exe", "size": 153549800 },
+		{ "download_count": 1270, "name": "Heroic-2.22.4-Portable-x64.exe", "size": 154612736 },
+		{ "download_count": 733, "name": "Heroic-2.22.4-Setup-arm64.exe", "size": 153766816 },
+		{ "download_count": 37, "name": "Heroic-2.22.4-Setup-arm64.exe.blockmap", "size": 163052 },
+		{ "download_count": 19784, "name": "Heroic-2.22.4-Setup-x64.exe", "size": 154830152 },
+		{ "download_count": 3641, "name": "Heroic-2.22.4-Setup-x64.exe.blockmap", "size": 163387 },
+		{ "download_count": 735, "name": "latest-linux-arm64.yml", "size": 878 },
+		{ "download_count": 138955, "name": "latest-linux.yml", "size": 875 },
+		{ "download_count": 58406, "name": "latest-mac.yml", "size": 830 },
+		{ "download_count": 12481, "name": "latest.yml", "size": 512 }
+	],
+	"tag": "v2.22.4"
+}

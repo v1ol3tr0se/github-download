@@ -1,0 +1,19 @@
+{
+	"assets": [
+		{ "download_count": 2494, "name": "balena-etcher-2.1.9-1.x86_64.rpm", "size": 159785905 },
+		{ "download_count": 8689, "name": "balena-etcher_2.1.9_amd64.deb", "size": 151512800 },
+		{ "download_count": 196340, "name": "balenaEtcher-2.1.9-arm64.dmg", "size": 201565645 },
+		{ "download_count": 69139, "name": "balenaEtcher-2.1.9-x64.dmg", "size": 211122614 },
+		{ "download_count": 148866, "name": "balenaEtcher-2.1.9.Setup.exe", "size": 274253464 },
+		{ "download_count": 745, "name": "balenaEtcher-darwin-arm64-2.1.9.zip", "size": 201293790 },
+		{ "download_count": 726, "name": "balenaEtcher-darwin-x64-2.1.9.zip", "size": 210949669 },
+		{ "download_count": 37246, "name": "balenaEtcher-linux-x64-2.1.9.zip", "size": 202150269 },
+		{ "download_count": 4197, "name": "balenaEtcher-win32-x64-2.1.9.zip", "size": 284199765 },
+		{ "download_count": 120, "name": "npm-sbom.json", "size": 2488388 },
+		{ "download_count": 210, "name": "SHA256SUMS.Darwin.arm64.txt", "size": 197 },
+		{ "download_count": 140, "name": "SHA256SUMS.Darwin.x64.txt", "size": 193 },
+		{ "download_count": 419, "name": "SHA256SUMS.Linux.x64.txt", "size": 294 },
+		{ "download_count": 397, "name": "SHA256SUMS.Windows.x64.txt", "size": 194 }
+	],
+	"tag": "v2.1.9"
+}

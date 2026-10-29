@@ -1,0 +1,27 @@
+{
+	"assets": [
+		{ "download_count": 26618, "name": "gh_2.103.3_checksums.txt", "size": 1971 },
+		{ "download_count": 110, "name": "gh_2.103.3_linux_386.deb", "size": 14148728 },
+		{ "download_count": 61, "name": "gh_2.103.3_linux_386.rpm", "size": 14670638 },
+		{ "download_count": 660, "name": "gh_2.103.3_linux_386.tar.gz", "size": 14090907 },
+		{ "download_count": 34717, "name": "gh_2.103.3_linux_amd64.deb", "size": 15105286 },
+		{ "download_count": 388, "name": "gh_2.103.3_linux_amd64.rpm", "size": 15672051 },
+		{ "download_count": 82579, "name": "gh_2.103.3_linux_amd64.tar.gz", "size": 15031972 },
+		{ "download_count": 3800, "name": "gh_2.103.3_linux_arm64.deb", "size": 13724980 },
+		{ "download_count": 170, "name": "gh_2.103.3_linux_arm64.rpm", "size": 14152659 },
+		{ "download_count": 17759, "name": "gh_2.103.3_linux_arm64.tar.gz", "size": 13661485 },
+		{ "download_count": 162, "name": "gh_2.103.3_linux_armv6.deb", "size": 14278314 },
+		{ "download_count": 30, "name": "gh_2.103.3_linux_armv6.rpm", "size": 14769681 },
+		{ "download_count": 54, "name": "gh_2.103.3_linux_armv6.tar.gz", "size": 14223954 },
+		{ "download_count": 4641, "name": "gh_2.103.3_macOS_amd64.zip", "size": 15702601 },
+		{ "download_count": 20083, "name": "gh_2.103.3_macOS_arm64.zip", "size": 14106091 },
+		{ "download_count": 2745, "name": "gh_2.103.3_macOS_universal.pkg", "size": 28881445 },
+		{ "download_count": 1800, "name": "gh_2.103.3_windows_386.msi", "size": 14835712 },
+		{ "download_count": 165, "name": "gh_2.103.3_windows_386.zip", "size": 14547276 },
+		{ "download_count": 106843, "name": "gh_2.103.3_windows_amd64.msi", "size": 15450112 },
+		{ "download_count": 33151, "name": "gh_2.103.3_windows_amd64.zip", "size": 15197187 },
+		{ "download_count": 10046, "name": "gh_2.103.3_windows_arm64.msi", "size": 13840384 },
+		{ "download_count": 894, "name": "gh_2.103.3_windows_arm64.zip", "size": 13637549 }
+	],
+	"tag": "v2.103.3"
+}

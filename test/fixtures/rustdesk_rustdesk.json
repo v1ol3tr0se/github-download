@@ -1,0 +1,33 @@
+{
+	"assets": [
+		{ "download_count": 59366, "name": "rustdesk-1.5.0-0-x86_64.pkg.tar.zst", "size": 26784015 },
+		{ "download_count": 2702, "name": "rustdesk-1.5.0-0.aarch64-suse.rpm", "size": 32959275 },
+		{ "download_count": 2307, "name": "rustdesk-1.5.0-0.aarch64.rpm", "size": 32959223 },
+		{ "download_count": 3203, "name": "rustdesk-1.5.0-0.x86_64-suse.rpm", "size": 33732987 },
+		{ "download_count": 15757, "name": "rustdesk-1.5.0-0.x86_64.rpm", "size": 33732946 },
+		{ "download_count": 163382, "name": "rustdesk-1.5.0-aarch64-signed.apk", "size": 28766338 },
+		{ "download_count": 2686, "name": "rustdesk-1.5.0-aarch64.AppImage", "size": 84883976 },
+		{ "download_count": 29070, "name": "rustdesk-1.5.0-aarch64.deb", "size": 23194980 },
+		{ "download_count": 478771, "name": "rustdesk-1.5.0-aarch64.dmg", "size": 29874038 },
+		{ "download_count": 28413, "name": "rustdesk-1.5.0-aarch64.exe", "size": 23857008 },
+		{ "download_count": 4183, "name": "rustdesk-1.5.0-aarch64.flatpak", "size": 23141344 },
+		{ "download_count": 11622, "name": "rustdesk-1.5.0-aarch64.msi", "size": 24428544 },
+		{ "download_count": 11123, "name": "rustdesk-1.5.0-armv7-sciter.deb", "size": 14913220 },
+		{ "download_count": 32310, "name": "rustdesk-1.5.0-armv7-signed.apk", "size": 27213962 },
+		{ "download_count": 178957, "name": "rustdesk-1.5.0-universal-signed.apk", "size": 77451974 },
+		{ "download_count": 1648, "name": "rustdesk-1.5.0-unsigned.tar.gz", "size": 201562177 },
+		{ "download_count": 90719, "name": "rustdesk-1.5.0-x86-sciter.exe", "size": 13377392 },
+		{ "download_count": 5154, "name": "rustdesk-1.5.0-x86_64-sciter.deb", "size": 18004180 },
+		{ "download_count": 543, "name": "rustdesk-1.5.0-x86_64-sciter.flatpak", "size": 17870480 },
+		{ "download_count": 3986, "name": "rustdesk-1.5.0-x86_64-signed.apk", "size": 28237942 },
+		{ "download_count": 13557, "name": "rustdesk-1.5.0-x86_64.AppImage", "size": 87992824 },
+		{ "download_count": 216631, "name": "rustdesk-1.5.0-x86_64.deb", "size": 24940796 },
+		{ "download_count": 165644, "name": "rustdesk-1.5.0-x86_64.dmg", "size": 36878402 },
+		{ "download_count": 2011960, "name": "rustdesk-1.5.0-x86_64.exe", "size": 25887600 },
+		{ "download_count": 22875, "name": "rustdesk-1.5.0-x86_64.flatpak", "size": 24741448 },
+		{ "download_count": 849148, "name": "rustdesk-1.5.0-x86_64.msi", "size": 26345472 },
+		{ "download_count": 9665, "name": "rustdesk-unattended-wayland-1.5.0-x86_64.deb", "size": 25161220 },
+		{ "download_count": 677, "name": "rustdesk.sbom.json", "size": 1850682 }
+	],
+	"tag": "1.5.0"
+}

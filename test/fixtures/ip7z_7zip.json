@@ -1,0 +1,21 @@
+{
+	"assets": [
+		{ "download_count": 1311, "name": "7z2605-arm.exe", "size": 1666731 },
+		{ "download_count": 58545, "name": "7z2605-arm64.exe", "size": 1595161 },
+		{ "download_count": 25367, "name": "7z2605-extra.7z", "size": 1763900 },
+		{ "download_count": 5197, "name": "7z2605-linux-arm.tar.xz", "size": 1217708 },
+		{ "download_count": 7237, "name": "7z2605-linux-arm64.tar.xz", "size": 1317128 },
+		{ "download_count": 22366, "name": "7z2605-linux-x64.tar.xz", "size": 1579976 },
+		{ "download_count": 5441, "name": "7z2605-linux-x86.tar.xz", "size": 1712924 },
+		{ "download_count": 18615, "name": "7z2605-mac.tar.xz", "size": 1868068 },
+		{ "download_count": 7097, "name": "7z2605-src.7z", "size": 1552479 },
+		{ "download_count": 7639, "name": "7z2605-src.tar.xz", "size": 1565688 },
+		{ "download_count": 1711257, "name": "7z2605-x64.exe", "size": 1663506 },
+		{ "download_count": 796461, "name": "7z2605-x64.msi", "size": 2008576 },
+		{ "download_count": 174547, "name": "7z2605.exe", "size": 1362132 },
+		{ "download_count": 73540, "name": "7z2605.msi", "size": 1574400 },
+		{ "download_count": 25479, "name": "7zr.exe", "size": 602624 },
+		{ "download_count": 6536, "name": "lzma2605.7z", "size": 1786350 }
+	],
+	"tag": "26.05"
+}

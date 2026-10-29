@@ -1,0 +1,19 @@
+{
+	"assets": [
+		{ "download_count": 9, "name": "bwrap-linux-aarch64.gz", "size": 138260 },
+		{ "download_count": 12, "name": "bwrap-linux-x86_64.gz", "size": 125749 },
+		{ "download_count": 32509, "name": "Zed-aarch64.dmg", "size": 88060147 },
+		{ "download_count": 430, "name": "Zed-aarch64.exe", "size": 57856200 },
+		{ "download_count": 290, "name": "zed-linux-aarch64.tar.gz", "size": 85552789 },
+		{ "download_count": 10737, "name": "zed-linux-x86_64.tar.gz", "size": 90563772 },
+		{ "download_count": 317, "name": "zed-remote-server-linux-aarch64.gz", "size": 35487022 },
+		{ "download_count": 2723, "name": "zed-remote-server-linux-x86_64.gz", "size": 39204940 },
+		{ "download_count": 111, "name": "zed-remote-server-macos-aarch64.gz", "size": 33854782 },
+		{ "download_count": 18, "name": "zed-remote-server-macos-x86_64.gz", "size": 36858521 },
+		{ "download_count": 10, "name": "zed-remote-server-windows-aarch64.zip", "size": 34512064 },
+		{ "download_count": 33, "name": "zed-remote-server-windows-x86_64.zip", "size": 37731990 },
+		{ "download_count": 4453, "name": "Zed-x86_64.dmg", "size": 96287859 },
+		{ "download_count": 18534, "name": "Zed-x86_64.exe", "size": 64763544 }
+	],
+	"tag": "v1.26.2"
+}
