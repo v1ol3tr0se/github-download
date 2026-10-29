@@ -32,5 +32,4 @@ jobs:
 
       - run: yarn install --frozen-lockfile --non-interactive
       - run: yarn verify
-      - run: yarn build
       - run: unzip -l github-download.xpi
