@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "GitHub — DOWNLOAD",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A big ass DOWNLOAD button on every GitHub repo that grabs the right file for your system.",
 	"browser_specific_settings": {
 		"gecko": {
